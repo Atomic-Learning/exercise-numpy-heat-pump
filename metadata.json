@@ -17,7 +17,8 @@
         "numpy-full",
         "numpy-array-arithmetic",
         "numpy-array-scalar-operations",
-        "numpy-trigonometric-functions"
+        "numpy-trigonometric-functions",
+        "numpy-full"
     ],
     "related": [
     ],
