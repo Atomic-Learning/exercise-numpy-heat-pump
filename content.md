@@ -32,7 +32,7 @@ print("Indoor Temperature (K):", t_in)    # Should be 24 values, all 293
 
 When approximations are made, the electrical power required to run the heat pump at each hour is:
 
-$$P_{elec} = UA(T_{in} - T_{out})\!\left(1 - \frac{T_{out}}{T_{in}}\right)$$
+$$P_{elec} = UA(T_{in} - T_{out})\left(1 - \frac{T_{out}}{T_{in}}\right)$$
 
 where:
 
