@@ -12,7 +12,7 @@ $$T_{out}(t) = 270 + 10\sin\left(\frac{\pi}{12}(t - 6)\right)$$
 
 where $t$ is the hour of the day (0–23). The interior temperature is held constant at 293K.
 
-In the cell below, create arrays `t_out`{.python} and `t_in`{.python} covering all 24 hours. Use `np.arange`{.python} to generate the time values, `np.sin`{.python} for the exterior temperature, and `np.full`{.python} for the interior temperature.
+In the cell below, create arrays `t`{.python}, `t_out`{.python} and `t_in`{.python} covering all 24 hours. Use `np.arange`{.python} to generate the time values, `np.sin`{.python} for the exterior temperature, and `np.full`{.python} for the interior temperature.
 
 ```py-cell
 import numpy as np
