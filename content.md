@@ -116,7 +116,7 @@ print("Total 24-hour cost (£):", total_cost)  # Should be a single value of ~£
 > 
 > ## Step 3: Electrical energy
 > 
-> Multiplying the power array by the scalar 3600 uses broadcasting to apply the conversion to every element.
+> Multiplying the power array by the scalar 3600 applies the multiplication to every element.
 > 
 > ```py-cell
 > e_elec = 3600 * p_elec
