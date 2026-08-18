@@ -1,22 +1,27 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Exercise: NumPy Heat Pump Energy",
+    "slug": "exercise-numpy-heat-pump",
+    "description": "An applied exercise modelling heat pump electrical power and energy consumption over a 24-hour period using NumPy array arithmetic, broadcasting, and mathematical functions.",
     "authors": [
-        "",
-        ""
+        "chris-cooling",
+        "giorgia-del-missier"
     ],
     "tags": [
-        "",
-        ""
+        "python",
+        "numpy",
+        "exercise"
     ],
-    "duration": 0,
+    "duration": 20,
     "prerequisites": [
-        "",
-        ""
+        "numpy-arange",
+        "numpy-full",
+        "numpy-array-arithmetic",
+        "numpy-array-scalar-operations",
+        "numpy-trigonometric-functions"
     ],
     "related": [
-        "",
-        ""
+    ],
+    "python_packages": [
+        "numpy"
     ]
 }
