@@ -18,12 +18,16 @@ In the cell below, create arrays `t_out`{.python} and `t_in`{.python} covering a
 import numpy as np
 import math
 
+# Times
+t =
+
 # Exterior temperature (K)
 t_out =
 
 # Interior temperature (K)
 t_in =
 
+print("Time (hours):", t)  # Should be 24 values from 0 to 23
 print("Outdoor Temperature (K):", t_out)  # Should be 24 values. First should be 260
 print("Indoor Temperature (K):", t_in)    # Should be 24 values, all 293
 ```
@@ -80,12 +84,14 @@ print("Total 24-hour cost (£):", total_cost)  # Should be a single value of ~£
 >
 > # Step 1: Temperatures
 > 
-> `np.arange(0, 24)`{.python} generates the 24 hourly time values. The exterior temperature formula uses `np.sin`{.python}, which applies element-wise to the time array. `np.full(24, 293)`{.python} creates a constant array of 293 K for the interior temperature.
+> `np.arange(0, 24)`{.python} is used to generate the 24 hourly time values. The exterior temperature formula uses `np.sin`{.python}, which applies element-wise to the time array. `np.full(24, 293)`{.python} creates a constant array of 293 K for the interior temperature.
 > 
 > ```py-cell
 > import numpy as np
 > import math
-> t = np.arange(0, 24)
+>
+> # Times
+> t =  np.arange(0, 24)
 >
 > t_out = 270 + 10 * np.sin(math.pi / 12 * (t - 6))
 > t_in = np.full(24, 293)
