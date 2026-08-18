@@ -6,11 +6,11 @@ Make sure to complete and run the code cells in order, as later cells depend on 
 
 # Step 1: Temperatures
 
-The exterior temperature (K) varies sinusoidally throughout the day, with a minimum of 260 K at 6am and a maximum of 280 K at 6pm. It can be modelled as:
+The exterior temperature (K) varies sinusoidally throughout the day, with a minimum of 260K at 6am and a maximum of 280K at 6pm. It can be modelled as:
 
 $$T_{out}(t) = 270 + 10\sin\left(\frac{\pi}{12}(t - 6)\right)$$
 
-where $t$ is the hour of the day (0–23). The interior temperature is held constant at 293 K.
+where $t$ is the hour of the day (0–23). The interior temperature is held constant at 293K.
 
 In the cell below, create arrays `t_out`{.python} and `t_in`{.python} covering all 24 hours. Use `np.arange`{.python} to generate the time values, `np.sin`{.python} for the exterior temperature, and `np.full`{.python} for the interior temperature.
 
