@@ -19,6 +19,7 @@
         "numpy-array-scalar-operations",
         "numpy-trigonometric-functions",
         "numpy-array-statistics",
+        "python-scientific-notation",
         "physics-kelvin-unit"
     ],
     "related": [
