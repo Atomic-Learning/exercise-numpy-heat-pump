@@ -126,3 +126,4 @@ print("Total 24-hour cost (£):", total_cost)  # Should be a single value of ~£
 > total_cost = e_elec.sum() * 7.14e-8
 >
 > print("Total 24-hour cost (£):", total_cost)
+> ```
